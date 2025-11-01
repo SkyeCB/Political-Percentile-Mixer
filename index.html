@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Political Percentile Mixer</title>
-  <link rel="icon" type="image/x-icon" href="./favicon.png">
+  <link rel="icon" type="image/x-icon" href="favicon.png">
   <style>
     button {
       background-color: rgba(251, 251, 251, 0.291);
@@ -274,7 +274,7 @@
 <body>
   <div>
     <div class="credit">
-      Code By Skye C. | Data By Skye C.
+      Project by Skye CB
     </div>
     <div class="buttonContainer"></div>
         <script>
@@ -301,7 +301,6 @@
           });
 
           var elems = document.querySelectorAll('button');
-          //console.log(elems);
           for (var i = 0; i < elems.length; i++) {
             elems[i].onclick = function() {
               console.log(this.style.backgroundColor);
@@ -314,6 +313,7 @@
                   break;
                 }
               }
+              updateCountries();
             }
           }
 
@@ -589,7 +589,6 @@
               }
               this.style.fill = "white";
               alterBoxHeights(sts[i]);
-                            snd.play();
             }
 
             sts[i].addEventListener("mouseleave", () => {
@@ -603,7 +602,7 @@
   </div>
   </body>
 
-  <div class="sliderContainer">
+  <!--<div class="sliderContainer">
     <button>TOGGLE UK</button>
 
     <input type="range" min="1000" max="2025" value="2025" id="mySlider" style="width: 300px; background-color: #fff;">
@@ -618,7 +617,7 @@
 
 
     </script>
-  </div>
+  </div>-->
 
 </body>
 </html>
